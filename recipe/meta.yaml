@@ -13,6 +13,8 @@ source:
   # I really tried hard to use patches.... i just dn't have the skills
   url: https://github.com/ramonaoptics/enblend-code/archive/{{ version }}.tar.gz
   sha256: b9510a419cb23f2964d6095bc295f9b19097362c05723425e78b0497741dcc17
+  patches:
+    - experimental_filesystem.patch  # [linux]
 
 build:
   number: 0
